@@ -1,0 +1,67 @@
+<article class="article" role="article">
+  <div class="container-fluid container-max">
+    <nav class="navbar" role="navigation">
+      {% for nav in collections.nav %}
+        <a href="{{ nav.url }}" class="">{{ nav.data.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="article-intro">
+      <h1 class="article-title"><span>{{ title }}</span></h1></h1>
+    </div>
+
+    {{ content }}
+
+    <!-- Begin Mailchimp Signup Form -->
+    <div id="mc_embed_signup">
+      <form action="https://maddemattiasgiftersig.us7.list-manage.com/subscribe/post?u=451bc773ebf306387eb7aa9e9&amp;id=87185654f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+
+          <!-- <div class="indicates-required"><span class="asterisk">*</span> obligatoriskt fält</div> -->
+
+           <div class="form-field">
+            <div class="form-inner">
+              <label class="form-label" for="mce-EMAIL">E-post <span class="asterisk">*</span></label>
+              <input class="form-input js-form-input" type="email" name="EMAIL" id="mce-EMAIL" value="" required>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <div class="form-inner">
+              <label class="form-label" for="mce-FNAME">Förnamn <span class="asterisk">*</span></label>
+              <input class="form-input js-form-input" type="text" name="FNAME" id="mce-FNAME" value="" required>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <div class="form-inner">
+              <label class="form-label" for="mce-LNAME">Efternamn <span class="asterisk">*</span></label>
+              <input class="form-input js-form-input" type="text" name="LNAME" id="mce-LNAME" value="" required>
+            </div>
+          </div>
+
+          <div class="form-field form-field--last">
+            <div class="form-inner">
+              <label class="form-label" for="mce-FOOD">Specialkost?</label>
+              <input class="form-input js-form-input" type="text" name="FOOD" id="mce-FOOD" value="" required>
+            </div>
+          </div>
+
+          <div id="mce-responses">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+
+          <div class="visually-hidden" aria-hidden="true">
+            <input type="text" name="b_451bc773ebf306387eb7aa9e9_87185654f3" tabindex="-1" value="">
+          </div>
+
+          <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">Skicka</button>
+
+        </div>
+      </form>
+    </div>
+    <!-- End mc_embed_signup -->
+
+  </div>
+</article>

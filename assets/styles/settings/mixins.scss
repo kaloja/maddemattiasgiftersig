@@ -1,0 +1,27 @@
+// Screen breakpoints
+// Mixin to set screen min-width and min-height.
+// ---------------------------------------------------------
+
+@mixin bp($x, $y: 0) {
+  @media (min-width: $x) and (min-height: $y) {
+    @content;
+  }
+}
+
+// Visually hidden
+// Mixin to quickly apply accessible hiding to elements.
+// @see https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+// --------------------------------------------------------
+
+@mixin visually-hidden() {
+  position: absolute;
+  width: 1px !important;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}

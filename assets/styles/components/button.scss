@@ -1,0 +1,16 @@
+// Component: button
+// ---------------------------------------------------------
+
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  border: 0;
+  background-color: $color-positive;
+  cursor: pointer;
+}

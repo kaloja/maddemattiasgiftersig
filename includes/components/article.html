@@ -1,0 +1,15 @@
+<article class="article" role="article">
+  <div class="container-fluid container-max">
+    <nav class="navbar" role="navigation">
+      {% for nav in collections.nav %}
+        <a href="{{ nav.url }}" class="">{{ nav.data.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <div class="article-intro">
+      <!-- <h5 class="article-subtitle">{{ subtitle }}</h5> -->
+      <h1 class="article-title"><span>{{ title }}</span></h1></h1>
+    </div>
+    {{ content }}
+  </div>
+</article>

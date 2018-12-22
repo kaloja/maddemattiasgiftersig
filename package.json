@@ -1,0 +1,31 @@
+{
+  "name": "maddemattiasgiftersig",
+  "version": "1.0.0",
+  "description": "Inbjudan till Madde och Mattias bröllop.",
+  "scripts": {
+    "build": "npm run clean && npx eleventy --quiet",
+    "server": "npx eleventy --serve",
+    "clean": "rm -rf site",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "author": "Mattias Haal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaloja/maddemattiasgiftersig"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.6.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^1.8.8",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

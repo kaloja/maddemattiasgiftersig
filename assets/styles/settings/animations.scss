@@ -1,0 +1,48 @@
+// Settings: animations
+// ---------------------------------------------------------
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes slide-from-top {
+  0% {
+    min-height: 100vh;
+  }
+
+  100% {
+    min-height: 30vh;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-from-left {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 45%;
+    transform: translate3d(0, 0, 0);
+  }
+}

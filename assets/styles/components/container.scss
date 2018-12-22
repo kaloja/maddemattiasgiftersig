@@ -1,0 +1,16 @@
+// Component: container
+// ---------------------------------------------------------
+
+.container-max {
+  max-width: 30rem;
+
+  @include bp($xl) {
+    max-width: 40rem;
+  }
+}
+
+.container-fluid {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}

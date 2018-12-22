@@ -1,0 +1,6 @@
+// Utility: tools
+// ---------------------------------------------------------
+
+.visually-hidden {
+  @include visually-hidden();
+}

@@ -1,0 +1,58 @@
+// Component: navbar
+// ---------------------------------------------------------
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  // padding-top: 2rem;
+  // padding-bottom: calc(3vw + 1.5rem);
+
+  @include bp($xl) {}
+}
+
+.navbar a:first-of-type {
+  // margin-right: auto;
+  margin-left: -0.75rem;
+}
+
+.navbar a:last-of-type {
+  // margin-right: -0.75rem;
+  font-weight: 500;
+  border: 2px solid $color-dark;
+
+  &:hover {
+    color: white;
+    background-color: $color-dark;
+    text-decoration: none;
+  }
+
+  @include bp($sm) {
+    margin-left: auto;
+  }
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  color: $color-black;
+  font-size: 0.85rem;
+  // font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  // text-decoration: none;
+}
+
+.navbar-heart {
+  padding-left: 1rem;
+  color: #fd7166;
+  line-height: 0;
+  animation: pulse 1500ms ease-in-out;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+}

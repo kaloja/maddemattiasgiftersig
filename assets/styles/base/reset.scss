@@ -1,0 +1,90 @@
+// HTML
+// 1. Add border box sizing in all browsers.
+// 2. Correct the line height in all browsers.
+// 3. Prevent adjustments of font size after orientation
+//    changes in iOS.
+// ---------------------------------------------------------
+
+html {
+  box-sizing: border-box; // 1
+  line-height: 1.15; // 2
+  -webkit-text-size-adjust: 100%; // 3
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; // 1
+}
+
+// Body
+// Remove the margin in all browsers.
+// ---------------------------------------------------------
+
+body {
+  margin: 0;
+}
+
+// Headings
+// Remove top margins from headings for easier control
+// within type scales as it avoids margin collapsing.
+// ---------------------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+// Paragraphs
+// Remove top margins from paragraphs for easier control
+// within type scales as it avoids margin collapsing.
+// ---------------------------------------------------------
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// Links
+// Remove the gray background on active links in IE 10.
+// ---------------------------------------------------------
+
+a {
+  background-color: transparent;
+}
+
+// Font weight
+// Add the correct font weight in Chrome, Edge, and Safari.
+// ---------------------------------------------------------
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+// Small
+// Add the correct font size in all browsers.
+// ---------------------------------------------------------
+
+small {
+  font-size: 80%;
+}
+
+// Horizontal rules
+// 1. Add the correct box sizing in Firefox.
+// 2. Show the overflow in Edge and IE.
+// ---------------------------------------------------------
+
+hr {
+  box-sizing: content-box; // 1
+  height: 0; // 1
+  overflow: visible; // 2
+}
+
+// Images
+// ---------------------------------------------------------
+
+img {
+  max-width: 100%;
+  height: auto;
+}

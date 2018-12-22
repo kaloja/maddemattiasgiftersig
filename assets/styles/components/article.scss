@@ -1,0 +1,67 @@
+// Component: article
+// ---------------------------------------------------------
+
+.article {
+  position: relative;
+  z-index: 10;
+  display: block;
+  min-height: 100vh;
+  padding-top: calc(4vw + 2rem);
+  padding-bottom: calc(4vw + 2rem);
+  background-color: white;
+  transform: translate3d(0, -200vh, 0);
+  transform-origin: center;
+  animation: slide-from-top 900ms 300ms forwards;
+
+  @include bp($lg) {
+    transform: translate3d(-100%, 0, 0);
+    transform-origin: left;
+    animation: slide-from-left 900ms 300ms forwards;
+  }
+
+  @include bp($xl) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.article-intro {
+  padding-top: calc(2vw + 1.5rem);
+  padding-bottom: calc(2vw + 1.5rem);
+
+  @include bp($xl) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.article-title {
+  display: block;
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0;
+  margin-left: 0.75rem;
+
+  @include bp($sm) {
+    font-size: calc(3.375rem + (54 - 24) * ((100vw - 1200px) / (1200 - 300)));
+  }
+
+  @include bp($xl) {
+    font-size: 3.375rem;
+  }
+}
+
+.article-title > span {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: white;
+  background-color: $color-dark;
+  filter: drop-shadow(-0.75rem 0 0 $color-dark) drop-shadow(0.75rem 0 0 $color-dark);
+}
+
+.article-subtitle {
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}

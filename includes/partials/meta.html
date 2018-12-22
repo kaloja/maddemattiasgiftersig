@@ -1,0 +1,25 @@
+{% if description %}
+  {% assign description = description | strip_html | strip_newlines %}
+{% else %}
+  {% assign description = config.description | strip_html | strip_newlines %}
+{% endif %}
+
+{% assign url = page.url | replace: 'index.html', '' | prepend: config.url %}
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }} - {{ config.title }}</title>
+<meta name="description" content="{{ description | truncate: 150, '...' }}">
+
+{% if config.environment == 'dev' %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="">
+<link rel="apple-touch-icon" href="">
+<link rel="manifest" href="">
+<meta name="apple-mobile-web-app-title" content="{{ config.title }}">
+<meta name="application-name" content="{{ config.title }}">
+<meta name="theme-color" content="">

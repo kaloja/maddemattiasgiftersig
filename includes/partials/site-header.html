@@ -1,0 +1,9 @@
+<head>
+  {% include partials/meta.html %}
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ "/assets/styles/bundle.css" | append: '?v=20181103'}}">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: config.url }}">
+</head>

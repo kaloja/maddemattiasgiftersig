@@ -1,0 +1,64 @@
+// Component: cover
+// ---------------------------------------------------------
+
+.cover {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  background-color: $color-dark;
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+
+  @supports (animation-fill-mode: forwards) {
+    opacity: 0;
+    animation: fade-in 300ms 900ms linear forwards;
+  }
+
+  @include bp($lg) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 45%;
+    height: 100%;
+
+    @supports (animation-fill-mode: forwards) {
+      opacity: 0;
+      animation: fade-in 300ms 900ms linear forwards;
+    }
+  }
+}
+
+.cover-overlay {}
+
+.cover-link {
+  display: block;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-weight: 700;
+  color: white;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.cover-icon {
+  display: inline-block;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  color: white;
+  line-height: 0;
+  animation: pulse 1500ms ease-in-out;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+
+  svg {
+    width: auto;
+    height: 0.7rem;
+  }
+}
