@@ -16,4 +16,4 @@ För våra gäster som rest långt och behöver boende rekommenderar vi designho
 Ni bokar på <a href="https://voxhotel.com/" target="_blank" rel="noreferrer">voxhotel.se</a>.
 
 ##### Rabattkod
-maddeochmattias
+MADDEOCHMATTIAS

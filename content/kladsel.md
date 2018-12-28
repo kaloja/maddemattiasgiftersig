@@ -3,6 +3,7 @@ layout: layouts/default
 permalink: /kladsel/index.html
 title: Klädsel
 description:
+image: /assets/images/kladsel
 date: 2010-12-03
 tags:
   - nav
