@@ -3,6 +3,7 @@ layout: layouts/form
 permalink: /anmalan/index.html
 title: Anmälan
 description:
+image: /assets/images/cover
 date: 2010-12-05
 tags:
   - nav
