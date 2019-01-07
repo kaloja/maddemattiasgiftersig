@@ -13,6 +13,10 @@ tags:
 
 Med en fantastisk utsikt över Vätterns södra strandkant kommer vi inmundiga smaker från traktens branta sluttningar på restaurang Sjön. 
 
+##### Hitta hit
+<a href="https://www.google.com/maps/place/Sj%C3%B6n/@57.7824634,14.2041904,17z/data=!3m1!4b1!4m5!3m4!1s0x465a6da064f7b007:0xaaa46192feeaa6e1!8m2!3d57.7824606!4d14.2063791" target="_blank" rel="noreferrer">Visa på karta</a>
+
+### Info 
 ##### Toastmaster och toastmadame
 Till vår hjälp har vi våra eminenta toastmater och toastmadame Jacob Ahlström och Annie Carlefred som kommer att guida oss genom kvällen. Känner ni er lockade att hålla tal eller liknande kontaktar ni dem via <a href="mailto:toastmaddeochmattias@gmail.com">toastmaddeochmattias@gmail.com</a>.
 
