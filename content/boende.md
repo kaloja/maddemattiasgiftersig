@@ -18,10 +18,10 @@ Ni bokar på <a href="https://voxhotel.se/" target="_blank" rel="noreferrer">vox
 ##### Rabattkod
 MADDEOCHMATTIAS
 
-### Just nu
+<!-- ### Just nu
 Vox har tekniska problem som gör att vår kod inte fungerar vid bokning. Ska ni boka får ni mejla in er bokning och ange att det gäller vårt bröllop så hjälper de er att få rätt pris. Har ni redan bokat men inte fått koden att fungera, mejla Vox så hjälper de er.
 
 ##### Kontakt Vox
 <a href="mailto:bookings@voxhotel.se">bookings@voxhotel.se</a>
 
-<em>Sidan uppdaterad 2019-02-10</em>
+<em>Sidan uppdaterad 2019-02-10</em> -->
